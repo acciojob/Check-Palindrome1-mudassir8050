@@ -6,7 +6,6 @@
 // module.exports = palindrome
 
 
-
 function isPalindrome(s) {
   // Remove non-alphanumeric characters and convert to lowercase
   s = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
