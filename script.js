@@ -1,6 +1,21 @@
-// complete the given function
+// // complete the given function
 
-function palindrome(str){
+// function palindrome(str){
 
+// }
+// module.exports = palindrome
+
+
+
+function isPalindrome(s) {
+  // Remove non-alphanumeric characters and convert to lowercase
+  s = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+  // Check if the string is equal to its reverse
+  return s === s.split('').reverse().join('');
 }
-module.exports = palindrome
+
+// Example usage:
+const input = "race a car";
+const result = isPalindrome(input);
+console.log(result);
