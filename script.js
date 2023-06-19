@@ -15,6 +15,6 @@ function isPalindrome(s) {
 }
 
 // Example usage:
-const input = "race a car";
+const input = "racecar";
 const result = isPalindrome(input);
 console.log(result);
